@@ -17,7 +17,7 @@ a:hover, a:focus { text-decoration: underline; }
 
 a strong { color: inherit; }
 
-img { border-radius: 5px; display: block; height: auto; margin: 0 0 1rem; margin-top: 2rem; max-width: 25%; }
+img { border-radius: 5px; display: block; height: auto; margin: 0 0 1rem; margin-top: 2rem; max-width: 70%; }
 
 table { border: 1px solid #e5e5e5; border-collapse: collapse; font-size: 85%; margin-bottom: 1rem; width: 100%; }
 
@@ -32,6 +32,8 @@ button, input[type='text'], input[type='email'], input[type='search'], input[typ
 button, input[type='submit'] { background: transparent; border-color: #e5e5e5; color: #268bd2; cursor: pointer; transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out, background 0.6s ease-in-out; }
 
 button:hover, input[type='submit']:hover { background: #268bd2; border-color: #268bd2; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16); color: #fff; }
+
+figcaption { background-color: white; color: grey; font-style: italic; margin: 0; padding: 0.1px; text-align: left; font-size: 0.75rem; }
 
 h1, h2, h3, h4, h5, h6, .site-title { color: #313131; font-weight: 600; line-height: 1.25; margin-bottom: 0.5rem; text-rendering: optimizeLegibility; }
 
@@ -294,7 +296,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
 /* ----------------------------------------------------------- Mobile view for home page) ----------------------------------------------------------- */
 .home #sidebar { text-align: center; }
 
-.home #sidebar .site-title { font-size: 2.55rem; }
+.home #sidebar .site-title { font-size: 2.25rem; }
 
 .home #sidebar header ~ *, .home #sidebar p.lead { display: block; }
 
